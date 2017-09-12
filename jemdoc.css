@@ -14,7 +14,7 @@ body {
 }
 
 #layout-menu {
-	background: #f6f6f6;
+	background: #0A008A;
 	border: 1px solid #dddddd;
 	padding-top: 0.5em;
 	padding-left: 8px;
@@ -42,6 +42,7 @@ body {
 }
 
 #layout-menu a {
+
 	line-height: 1.5em;
 	margin-left: 0.5em;
 }
@@ -63,20 +64,26 @@ a, a > tt {
 a:hover {
 	border-bottom: 1px gray dotted;
 }
+#layout-menu a:title {
+	color: #ffffff;
+}
+
 
 #layout-menu a.current:link, #layout-menu a.current:visited {
-	color: #022b6d;
+	color: #F9F2F2;
 	border-bottom: 1px gray solid;
 }
 #layout-menu a:link, #layout-menu a:visited, #layout-menu a:hover {
-	color: #527bbd;
+	color: #EDE6E6;
 	text-decoration: none;
 }
 #layout-menu a:hover {
+	color: #ED0000;
 	text-decoration: none;
 }
 
 div.menu-category {
+	color: #ffffff;
 	border-bottom: 1px solid gray;
 	margin-top: 0.8em;
 	padding-top: 0.2em;
@@ -117,7 +124,7 @@ strong {
 
 
 h1, h2, h3 {
-	color: #527bbd;
+	color: #0A008A;
 	margin-top: 0.7em;
 	margin-bottom: 0.3em;
 	padding-bottom: 0.2em;
@@ -127,12 +134,12 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: 165%;
+	font-size: 145%;
 }
 
 h2 {
 	padding-top: 0.8em;
-	font-size: 125%;
+	font-size: 115%;
 }
 
 h2 + h3 {
@@ -140,7 +147,7 @@ h2 + h3 {
 }
 
 h3 {
-	font-size: 110%;
+	font-size: 105%;
 	border-bottom: none;
 }
 
