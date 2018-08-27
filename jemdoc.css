@@ -116,6 +116,7 @@ div#subtitle {
 }
 
 em {
+	color: #0A108A;
 	font-style: italic;
 }
 
@@ -123,6 +124,16 @@ strong {
 	font-weight: bold;
 }
 
+b {
+	color: #0A008A;
+	font-weight: bold;	
+}
+
+i {
+	color: #990000;
+	font-style: italic;
+	font-weight: bold;
+}
 
 h1, h2, h3 {
 	color: #0A008A;
