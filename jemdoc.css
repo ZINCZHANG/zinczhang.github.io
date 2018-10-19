@@ -58,7 +58,8 @@ pre, tt {
 }
 
 a, a > tt {
-	color: #224b8d;
+	color: #cc0000;
+	font-style: italic;
 	text-decoration: none;
 }
 
