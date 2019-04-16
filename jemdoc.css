@@ -8,7 +8,7 @@ table#tlayout {
 
 body {
 	background: white;
-	font-family: Georgia, serif;
+	font-family: Palatino, serif;
 	font-size: 75%
 	padding-bottom: 8px;
 	margin: 0;
@@ -230,13 +230,13 @@ p + ul, p + ol {
 
 li ul, li ol {
 	margin-top: -0.3em;
-	font-size: 85%
+	font-size: 100%
 }
 
 ol {
 	list-style-position: outside;
 	list-style-type: decimal;
-	font-size: 85%
+	font-size: 100%
 }
 
 li p, dd p {
