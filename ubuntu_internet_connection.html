@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Solving Ubuntu Internet Connection Problems</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Yicheng</div>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-item"><a href="bio.html">Biography</a></div>
+<div class="menu-item"><a href="Projects.html">Projects</a></div>
+<div class="menu-item"><a href="Publications.html">Publications</a></div>
+<div class="menu-item"><a href="contact.html">Contact</a></div>
+<div class="menu-category">Lifestyle</div>
+<div class="menu-item"><a href="travel.html">Travel</a></div>
+<div class="menu-item"><a href="yiqing.html">Music</a></div>
+<div class="menu-item"><a href="notes.html">Notes</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Solving Ubuntu Internet Connection Problems</h1>
+</div>
+<p>For some industrial PCs which have more than one internet adaptors inside, the internet connection problems always happen if the settings in <tt>ifconfig</tt> is incorrect. </p>
+<p>Here is a quick solution on this problem. </p>
+<div class="infoblock">
+<div class="blocktitle">Run the following command to obtain the root permission</div>
+<div class="blockcontent">
+<p><tt>sudo -s</tt></p>
+</div></div>
+<div class="infoblock">
+<div class="blocktitle">Shut down the internet card which you are not willing to use. Replace <tt>XXXXX</tt> by the name of this internet card.</div>
+<div class="blockcontent">
+<p><tt>ifconfig XXXXX down</tt></p>
+</div></div>
+<div class="infoblock">
+<div class="blocktitle">Done! You may use <tt>ifconfig</tt> once again to test if your settings are successful.</div>
+<div class="blockcontent">
+<p><tt>ifconfig</tt></p>
+</div></div>
+<div class="infoblock">
+<div class="blocktitle">Ping something to test.</div>
+<div class="blockcontent">
+<p><tt>ping 1.1.1.1</tt></p>
+</div></div>
+<div id="footer">
+<div id="footer-text">
+Page generated 2019-05-16 11:37:55 +08, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
