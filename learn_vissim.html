@@ -37,9 +37,30 @@
 </li>
 </ul>
 </div></div>
+<div class="infoblock">
+<div class="blocktitle">Trobule Shooting when linking Python2 with VISSIM</div>
+<div class="blockcontent">
+<p>Two errors with solutions during my integration are listed here. </p>
+<ol>
+<li><p>win32 import error</p>
+</li>
+<li><p>DLL loading failure</p>
+</li>
+</ol>
+</div></div>
+<div class="codeblock">
+<div class="blocktitle">ImportError: No module named win32com.client</div>
+<div class="blockcontent"><pre>
+<span class="pycommand">&gt;&gt;&gt; pip install pypiwin32</span>
+</pre></div></div>
+<div class="codeblock">
+<div class="blocktitle">ImportError: DLL load failed: win32api, sys, os</div>
+<div class="blockcontent"><pre>
+In directory "Lib/site-packages/pywin32_system32", copy all three files to the "/Lib/site-packages/win32"
+</pre></div></div>
 <div id="footer">
 <div id="footer-text">
-Page generated 2019-06-10 17:33:58 +08, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Page generated 2019-09-23 13:04:50 +08, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
 </td>
