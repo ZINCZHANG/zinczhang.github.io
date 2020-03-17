@@ -8,14 +8,14 @@ table#tlayout {
 
 body {
 	background: white;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-family: "Open Sans", sans-serif;
 	font-size: 75%
 	padding-bottom: 8px;
 	margin: 0;
 }
 
 #layout-menu {
-	background: #0A008A;
+	background: #EBF5FB;
 	border: 1px solid #dddddd;
 	padding-top: 0.5em;
 	padding-left: 8px;
@@ -58,7 +58,7 @@ pre, tt {
 }
 
 a, a > tt {
-	color: #cc0000;
+	color: #2874A6;
 	font-style: italic;
 	text-decoration: none;
 }
@@ -72,20 +72,20 @@ a:hover {
 
 
 #layout-menu a.current:link, #layout-menu a.current:visited {
-	color: #F9F2F2;
+	color: #1B4F72;
 	border-bottom: 1px gray solid;
 }
 #layout-menu a:link, #layout-menu a:visited, #layout-menu a:hover {
-	color: #EDE6E6;
+	color: #1B4F72;
 	text-decoration: none;
 }
 #layout-menu a:hover {
-	color: #ED0000;
+	color: #1B4F72;
 	text-decoration: none;
 }
 
 div.menu-category {
-	color: #ffffff;
+	color: #1B4F72;
 	border-bottom: 1px solid gray;
 	margin-top: 0.8em;
 	padding-top: 0.2em;
@@ -94,6 +94,7 @@ div.menu-category {
 }
 
 div.menu-item {
+	color: #1B4F72;
 	padding-left: 16px;
 	text-indent: -16px;
 }
@@ -117,7 +118,7 @@ div#subtitle {
 }
 
 em {
-	color: #0A108A;
+	color: #117864;
 	font-style: italic;
 }
 
@@ -126,18 +127,18 @@ strong {
 }
 
 b {
-	color: #0A008A;
+	color: #1B4F72;
 	font-weight: bold;	
 }
 
 i {
-	color: #990000;
+	color: #117864;
 	font-style: italic;
 	font-weight: bold;
 }
 
 h1, h2, h3 {
-	color: #0A008A;
+	color: #1B4F72;
 	margin-top: 0.7em;
 	margin-bottom: 0.3em;
 	padding-bottom: 0.2em;
@@ -181,14 +182,14 @@ pre {
 
 div#footer {
 	font-size: small;
-	border-top: 1px solid #c0c0c0;
+	border-top: 1px solid #1B4F72;
 	padding-top: 0.1em;
 	margin-top: 4.0em;
 	color: #c0c0c0;
 }
 
 div#footer a {
-	color: #80a0b0;
+	color: #1B4F72;
 }
 
 div#footer-text {
@@ -264,18 +265,19 @@ div.codeblock, div.infoblock {
 
 div.blocktitle {
 	font-weight: bold;
-	color: #cd7b62;
+	color: #1B4F72;
 	margin-top: 1.2em;
 	margin-bottom: 0.1em;
 }
 
 div.blockcontent {
+	color: #1B4F72;
 	border: 1px solid silver;
 	padding: 0.3em 0.5em;
 }
 
 div.infoblock > div.blockcontent {
-	background: #ffffee;
+	background: #EBF5FB;
 }
 
 div.blockcontent p + ul, div.blockcontent p + ol {
